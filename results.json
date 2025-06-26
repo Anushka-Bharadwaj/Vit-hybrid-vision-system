@@ -1,0 +1,83 @@
+{
+    "train_losses": [
+        1.6138556599617004,
+        1.4153305292129517
+    ],
+    "val_losses": [
+        1.4951663414637248,
+        1.371673583984375
+    ],
+    "train_top1_accuracies": [
+        23.243243243243246,
+        28.10810810810811
+    ],
+    "train_top3_accuracies": [
+        76.48648648648648,
+        74.32432432432432
+    ],
+    "val_top1_accuracies": [
+        23.52941176470588,
+        23.52941176470588
+    ],
+    "val_top3_accuracies": [
+        76.47058823529412,
+        76.47058823529412
+    ],
+    "test_loss": 1.3837883472442627,
+    "test_metrics": {
+        "accuracy_score": 0.20833333333333334,
+        "top_1_accuracy": 0.20833333333333334,
+        "top_3_accuracy": 0.7916666666666666,
+        "precision_micro": 0.20833333333333334,
+        "precision_macro": 0.052083333333333336,
+        "precision_weighted": 0.04340277777777778,
+        "recall_micro": 0.20833333333333334,
+        "recall_macro": 0.25,
+        "recall_weighted": 0.20833333333333334,
+        "f1_micro": 0.20833333333333334,
+        "f1_macro": 0.08620689655172414,
+        "f1_weighted": 0.07183908045977012,
+        "auc_micro": 0.5719039351851851,
+        "auc_macro": 0.809961456671983,
+        "auc_weighted": 0.8224847155768208
+    },
+    "best_validation": {
+        "epoch": 1,
+        "metrics": {
+            "accuracy_score": 0.23529411764705882,
+            "top_1_accuracy": 0.23529411764705882,
+            "top_3_accuracy": 0.7647058823529411,
+            "precision_micro": 0.23529411764705882,
+            "precision_macro": 0.058823529411764705,
+            "precision_weighted": 0.05536332179930796,
+            "recall_micro": 0.23529411764705882,
+            "recall_macro": 0.25,
+            "recall_weighted": 0.23529411764705882,
+            "f1_micro": 0.23529411764705882,
+            "f1_macro": 0.09523809523809523,
+            "f1_weighted": 0.0896358543417367,
+            "auc_micro": 0.56,
+            "auc_macro": 0.7718846153846154,
+            "auc_weighted": 0.7850678733031674,
+            "loss": 1.4951663414637248
+        }
+    },
+    "model_statistics": {
+        "flops": "330.75 MMac",
+        "ptflops_params": "1.69 M",
+        "total_params": 1689220,
+        "estimated_memory_usage_bytes": 6756880,
+        "avg_inference_time_seconds": 0.0104016375541687
+    },
+    "training_time": {
+        "total_seconds": 225.91558456420898,
+        "formatted": "0:03:45",
+        "average_epoch_seconds": 112.95779228210449
+    },
+    "plots": {
+        "top1_top3_comparison": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\Vit_Modified...A\\top1_top3_comparison.png",
+        "loss_curves": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\Vit_Modified...A\\loss_curves.png",
+        "test_confusion_matrix": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\Vit_Modified...A\\test_confusion_matrix.png",
+        "train_confusion_matrix": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\Vit_Modified...A\\train_conf_matrix.png"
+    }
+}
